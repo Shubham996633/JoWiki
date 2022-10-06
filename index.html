@@ -1,29 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JoSearch</title>
-
-                <!-- Favicons -->
-
-    <link rel="shortcut icon" href="assets/img/Wikipedia-logo-v2.png" type="image/x-icon">
-
-                <!-- Google Fonts -->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
-
-                <!-- Fonts Awsome -->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-                <!-- CSS -->
-
-    <link rel="stylesheet" href="assets/sass/style.css">
+    <link rel="shortcut icon" href="assets/img/Wikipedia-logo-v2.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/sass/style.css" />
+    <script src="assets/js/main.js" type="module"></script>
+    <title>JoSearch</title>
 </head>
 <body>
     <main>
@@ -41,51 +28,27 @@
                 <span class="yellow">e</span>
                 <span class="red exclaim">!</span>
             </div>
-            <form id="searchBar" class="searchBar">
-                <label for="search" class="offscreen">
-                    Enter a Search Term or Pharse
-                </label>
-                <input type="text" id="search" autocomplete="off">
+            <form id="searchBar" class="searchBar" role="search"> 
+                <label class="offscreen" for="search">Enter a search term or phrase</label>
+                <input id="search" type="text" autocomplete="off" role="searchbox" />
                 <div id="clear" class="none button clear" role="button" tabindex="0" aria-label="Clear search terms">
                     <i class="fas fa-times"></i>
                 </div>
-                <button id="searchButton" class="button searchButton" type="submit" aria-label="Submit button"><i class="fas fa-search blue"></i></button>
+                <button id="searchButton" class="button searchButton" type="submit" aria-label="Submit button">
+                    <i class="fas fa-search blue"></i>
+                </button>
             </form>
         </section>
-
         <section class="results">
-            <h2 class="offscreen">
-                Search Results
-            </h2>
-
+            <h2 class="offscreen">Search Results</h2>
             <div class="statsBar">
-                <div class="stats" id="stats" aria-live = "assertive"></div>
+                <div id="stats" class="stats" aria-live="assertive"></div>
             </div>
-            <div class="searchResults" id="searchResults">
-                <div class="resultItem">
-                    <div class="resultTitle">
-                        <a href="">Wikipedia</a>
-                    </div>
-                    <div class="resultContents">
-                        <div class="resultImage">
-                            <img src="https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png" alt="Dachsund">
-                        </div>
-                        <div class="resultText">
-                            <p class="resultDescription">The Wikipedia Is A web search Engine</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="searchResults" class="searchResults"></div>
         </section>
     </main>
     <footer>
-        <p><span aria-hidden="true">&lt;&lt;</span> Powered By <a href= "https://www.wikipedia.com" target="_blank">Wikipedia </a><span aria-hidden="true">&gt;&gt;</span></p>
+        <p><span aria-hidden="true">&lt;&lt;</span> Powered by <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a> <span aria-hidden="true">&gt;&gt;</span></p>
     </footer>
-
-
-                <!-- JavaScript -->
-
-    <script src="assets/js/main.js"></script>
-    
 </body>
 </html>
