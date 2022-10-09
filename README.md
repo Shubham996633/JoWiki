@@ -4,9 +4,25 @@
 
 ## --> OverView
 
-![image](https://user-images.githubusercontent.com/65014926/194357418-3190e8ad-2a1f-4ef6-9dd7-291e0dc009bc.png)
+![image](https://user-images.githubusercontent.com/65014926/194763534-2a292e56-3936-45bd-ad1f-e4b50e7cdc90.png)
+
 
 
 
 ## To Visit Click Here : <a href = "https://shubham996633.github.io/JoSearch/">JoSearch</a>
 
+<br>
+
+## Disclaimer   
+   JoSearch uses the <a href = "https://en.wikipedia.org/w/api.php">MediaWiki API </a> to fetch the search result.
+   
+
+   
+
+
+
+## Note
+ 
+Some-time there is a clash between API so By that reason JoSearch can't  
+able to complete your desired request so please visit after Some-time upto that it will be resolved by The Developer
+If not resolved Then Drop a Mail here : ( <a href = "mailto:shubhammaurya996633+work@gmail.com"> Shubham_Maurya</a> )

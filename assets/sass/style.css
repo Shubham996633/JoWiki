@@ -11,8 +11,8 @@
 
 html,
 body {
-  background-color: #fff;
-  color: #000;
+  background-color: rgb(61, 61, 61);
+  color: #fff;
   width: 100vw;
   min-height: 100vh;
   font-family: "Roboto", Arial, sans-serif;
@@ -31,7 +31,7 @@ footer {
   justify-content: center;
 }
 footer p {
-  color: #70757a;
+  color: #c0c2c5;
   font-size: 0.5rem;
 }
 @media only screen and (min-width: 768px) {
@@ -40,7 +40,7 @@ footer p {
   }
 }
 footer p a {
-  color: #70757a;
+  color: #c0c2c5;
 }
 
 img {
@@ -130,6 +130,10 @@ img {
   border: 0;
   outline: none;
   min-width: 150px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  border-radius: 3%;
+  border: 3px solid rgb(61, 61, 61);
 }
 @media only screen and (min-width: 768px) {
   .searchEntry .searchBar input[type=text] {
@@ -208,7 +212,7 @@ img {
   width: 100%;
 }
 .results .statsBar .stats {
-  color: #70757a;
+  color: #d9e2eb;
   font-size: 0.75rem;
 }
 @media only screen and (min-width: 768px) {
@@ -240,27 +244,33 @@ img {
   white-space: nowrap;
   text-overflow: ellipsis;
   padding: 3px 2px;
+  font-weight: 600;
 }
 @media only screen and (min-width: 768px) {
   .results .searchResults .resultItem .resultTitle {
     font-size: 1.5rem;
     line-height: 1.75rem;
     margin-bottom: 0.5rem;
+    font-weight: 600;
+
   }
 }
 .results .searchResults .resultItem .resultTitle a {
-  color: #1a0dab;
+  color: #40a6fa;
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
+  font-weight: 600;
+
 }
 .results .searchResults .resultItem .resultTitle a:visited {
-  color: #609;
+  color: rgb(31, 235, 157);
 }
 .results .searchResults .resultItem .resultTitle a:hover {
   text-decoration: underline;
 }
 .results .searchResults .resultItem .resultTitle a:focus {
-  outline: 2px solid #000;
+  outline: 2px solid rgb(238, 229, 229);
 }
 .results .searchResults .resultItem .resultContents {
   display: flex;
