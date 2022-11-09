@@ -1,4 +1,4 @@
-# JoSearch
+# JoWiki
 ### JoWiki is a Wikipedia Search Extractor that is based on HTML, CSS, and JavaScript with Multi Device Support 
 <br>
 
