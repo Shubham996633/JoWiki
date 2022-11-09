@@ -25,4 +25,4 @@
  
 Some-time there is a clash between API so By that reason JoWiki can't  
 able to complete your desired request so please visit after Some-time upto that it will be resolved by The Developer
-If not resolved Then Drop a Mail here : ( <a href = "mailto:shubhammaurya996633+work@gmail.com"> Shubham_Maurya</a> )
+If not resolved Then Drop a Mail here : ( <a href = 'mailto:shubhammaurya996633+work@gmail.com'> Shubham_Maurya</a> )
