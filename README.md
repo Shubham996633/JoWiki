@@ -1,5 +1,5 @@
 # JoSearch
-### JoSearch is a Wikipedia Search Extractor that is based on HTML, CSS, and JavaScript with Multi Device Support 
+### JoWiki is a Wikipedia Search Extractor that is based on HTML, CSS, and JavaScript with Multi Device Support 
 <br>
 
 ## --> OverView
@@ -9,12 +9,12 @@
 
 
 
-## To Visit Click Here : <a href = "https://shubham996633.github.io/JoSearch/">JoSearch</a>
+## To Visit Click Here : <a href = "https://shubham996633.github.io/JoWiki/">JoWiki</a>
 
 <br>
 
 ## Disclaimer   
-   JoSearch uses the <a href = "https://en.wikipedia.org/w/api.php">MediaWiki API </a> to fetch the search result.
+   JoWiki uses the <a href = "https://en.wikipedia.org/w/api.php">MediaWiki API </a> to fetch the search result.
    
 
    
@@ -23,6 +23,6 @@
 
 ## Note
  
-Some-time there is a clash between API so By that reason JoSearch can't  
+Some-time there is a clash between API so By that reason JoWiki can't  
 able to complete your desired request so please visit after Some-time upto that it will be resolved by The Developer
 If not resolved Then Drop a Mail here : ( <a href = "mailto:shubhammaurya996633+work@gmail.com"> Shubham_Maurya</a> )
